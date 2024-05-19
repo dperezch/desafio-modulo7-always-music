@@ -65,7 +65,7 @@ const deleteEstudiante = async () => {
 
 
 const inpt = process.argv[2];
-
+//ejecutar funciones mediante comando
 switch (inpt) {
     case 'nuevo':
         insertEstudiante()
